@@ -10,6 +10,10 @@ let dice;	//サイコロ平均
 let result;	//結果
 
 let num;
+
+let element = document.getElementById("time");
+console.log(element.value);
+
 /*
 一人あたりが通るマスの合計 × 人数 ÷ サイコロの平均= かかる時間
 
