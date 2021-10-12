@@ -7,8 +7,17 @@ let mass_s;	//マス-視聴会
 
 let dice;	//サイコロ平均
 
-let result;	//結果
+let time;
 
+let result;	//結果
+/*
+一人あたりが通るマスの合計 × 人数 ÷ サイコロの平均= かかる時間
+
+time = (mass_k + mass_s) * member / dice
+dice = (mass_k + mass_s) * member / time
+
+
+*/
 //「num」に計算したいやつ打ち込む
 switch (num){
 	case "time" :
