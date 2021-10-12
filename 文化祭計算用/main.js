@@ -7,7 +7,7 @@ let mass_s;	//マス-視聴会
 
 let dice;	//サイコロ平均
 
-let Result;	//結果
+let result;	//結果
 
 //「num」に計算したいやつ打ち込む
 switch (num){
@@ -29,3 +29,4 @@ switch (num){
 	default :
 		document.write("<h2>予期せぬエラーが発生したお！</h2>")
 }
+document.write("<h2>"+result+"</h2>")
