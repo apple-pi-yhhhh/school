@@ -27,7 +27,7 @@ switch (num){
 		break;
 	
 	default :
-		document.write("<h2>"+Result+"</h2>")
+		document.write("<h2>予期せぬエラーが発生したお！</h2>")
 }
 //時間
 if (num = "_time_"){
