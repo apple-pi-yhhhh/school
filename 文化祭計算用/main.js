@@ -7,7 +7,7 @@ let mass_s;	//マス-視聴会
 
 let dice;	//サイコロ平均
 
-let time;
+let time;	//時間
 
 let result;	//結果
 /*
@@ -15,7 +15,8 @@ let result;	//結果
 
 time = (mass_k + mass_s) * member / dice
 dice = (mass_k + mass_s) * member / time
-
+mass_k = time * dice / member - mass_s
+mass_s = time * dice / member - mass_k
 
 */
 //「num」に計算したいやつ打ち込む
